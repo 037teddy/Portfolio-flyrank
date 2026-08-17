@@ -67,7 +67,7 @@ export default function Modal({ isOpen, onClose, title, children }: ModalProps) 
       className="fixed inset-0 bg-black/50 flex items-center justify-center z-50"
       onClick={onClose}
     >
-      <div
+      <div  
         ref={dialogRef}
         role="dialog"
         aria-modal="true"
